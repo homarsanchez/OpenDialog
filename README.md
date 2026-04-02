@@ -12,12 +12,12 @@
 This repository contains the complete quantitative framework, datasets, and reproducibility code for **Figure 8: Integrated Quantitative Framework for Human Capital Transformation**, published in the academic essay:
 
 > **"Cognitive Capital in the Age of Algorithmic Intelligence: Reimagining Human Investment for a Multipolar, AI-Augmented Economy"**  
-> Author: [Your Name]  
+> Author: Homar Sánchez-Olguín  
 > Date: March 2026  
-> Conference/Journal: [Venue]
+> Conference/Journal: II Open Dialog
 
 The framework integrates four complementary analytical perspectives:
-1. **Labor market polarization dynamics** (2025-2035)
+1. **Labour market polarisation dynamics** (2025-2035)
 2. **Multipolar productivity trajectories** (Russia-China-Global South)
 3. **Investment ROI surface modeling** (GDP% → adaptive capacity)
 4. **Bayesian causal network** (policy → mediators → outcomes)
@@ -29,7 +29,7 @@ The framework integrates four complementary analytical perspectives:
 ```
 human-capital-transformation/
 ├── data/
-│   ├── labor_polarization_2025_2035.csv
+│   ├── labour_polarisation_2025_2035.csv
 │   ├── productivity_trajectories.csv
 │   ├── investment_roi_matrix.csv
 │   ├── bayesian_network_structure.json
@@ -42,7 +42,7 @@ human-capital-transformation/
 │   ├── figure_8_composite.pdf
 │   ├── figure_8_composite.png
 │   └── panel_individual_exports/
-│       ├── panel_a_labor_polarization.png
+│       ├── panel_a_labour_polarisation.png
 │       ├── panel_b_productivity_trajectories.png
 │       ├── panel_c_investment_roi.png
 │       └── panel_d_bayesian_network.png
@@ -191,17 +191,12 @@ All models have been validated against 2020-2024 empirical trajectories:
 
 ### Primary Sources
 
-1. **Autor, D., & Dorn, D. (2023).** The labor market impacts of technological change: From unbridled enthusiasm to qualified optimism to vast uncertainty. *Journal of Economic Perspectives, 37*(2), 3-30.
-
-2. **Frey, C. B., & Osborne, M. A. (2017).** The future of employment: How susceptible are jobs to computerisation? *Technological Forecasting and Social Change, 114*, 254-280.
-
-3. **OECD (2023).** *OECD Skills Outlook 2023: Skills for a resilient green and digital transition.* OECD Publishing.
-
-4. **McKinsey Global Institute (2021).** *The future of work after COVID-19.* McKinsey & Company.
-
-5. **Acemoglu, D., & Restrepo, P. (2020).** Robots and jobs: Evidence from US labor markets. *Journal of Political Economy, 128*(6), 2188-2244.
-
-6. **Brynjolfsson, E., Li, D., & Raymond, L. R. (2023).** Generative AI at work. *National Bureau of Economic Research Working Paper 31161.*
+1. **Acemoglu, D., & Restrepo, P. (2020).** Robots and jobs: Evidence from US labor markets. *Journal of Political Economy, 128*(6), 2188-2244. https://doi.org/10.1086/705716
+2. **Autor, D., & Dorn, D. (2023).** The labor market impacts of technological change: From unbridled enthusiasm to qualified optimism to vast uncertainty. *Journal of Economic Perspectives, 37*(2), 3-30. https://doi.org/10.2139/ssrn.4122803
+3. **Brynjolfsson, E., Li, D., & Raymond, L. R. (2023).** Generative AI at work. *National Bureau of Economic Research Working Paper 31161.* https://doi.org/10.3386/w31161
+4. **Frey, C. B., & Osborne, M. A. (2017).** The future of employment: How susceptible are jobs to computerisation? *Technological Forecasting and Social Change, 114*, 254-280. https://doi.org/10.1016/j.techfore.2016.08.019
+5. **McKinsey Global Institute (2021).** *The future of work after COVID-19.* McKinsey & Company. https://www.mckinsey.com/~/media/mckinsey/featured%20insights/future%20of%20organizations/the%20future%20of%20work%20after%20covid%2019/the-future-of-work-after-covid-19-report-vf.pdf
+6. **OECD (2023).** *OECD Skills Outlook 2023: Skills for a resilient green and digital transition.* OECD Publishing. https://doi.org/10.1787/27452f29-en
 
 ### Data Collection Methodology
 
@@ -217,19 +212,18 @@ All models have been validated against 2020-2024 empirical trajectories:
 If you use this framework in your research, please cite:
 
 ```bibtex
-@article{yourname2026cognitive,
+@article{SanchezOlguin2026cognitive,
   title={Cognitive Capital in the Age of Algorithmic Intelligence: Reimagining Human Investment for a Multipolar, AI-Augmented Economy},
-  author={[Your Name]},
-  journal={[Venue]},
-  year={2026},
-  doi={10.5281/zenodo.XXXXXXX}
+  author={Homar Sánchez-Olguín},
+  journal={II Open Dialog},
+  year={2026}
 }
 
-@software{yourname2026framework,
+@software{SanchezOlguin2026framework,
   title={Human Capital Transformation: Quantitative Framework},
-  author={[Your Name]},
+  author={Homar Sánchez-Olguín},
   year={2026},
-  url={https://github.com/[your-repo]/human-capital-transformation},
+  url={https://github.com/homarsanchez/OpenDialog},
   version={1.0.0}
 }
 ```
@@ -244,8 +238,8 @@ This work is licensed under the **MIT License** - see [LICENSE](LICENSE) file fo
 
 ## Acknowledgments
 
-This research was supported by [Institution/Grant]. The author thanks:
-- Conference reviewers for valuable feedback
+This research was supported by 4tools Gloabl Business. The author thanks:
+- The Open Dialog Team
 - OECD Statistics Directorate for data access
 - McKinsey Global Institute for methodology consultation
 
@@ -253,10 +247,10 @@ This research was supported by [Institution/Grant]. The author thanks:
 
 ## Contact
 
-**Author:** [Your Name]  
-**Email:** [your.email@institution.edu]  
-**ORCID:** [0000-0000-0000-0000]  
-**Institution:** [Your Institution]
+**Author:** Homar Sánchez-Olguín  
+**Email:** homar@exatec.tec.mx  
+**ORCID:** 0000-0001-9171-4399  
+**Institution:** Universidad Nacional Rosario Castellanos
 
 For questions about the methodology, data, or code, please open an issue on GitHub or contact the author directly.
 
