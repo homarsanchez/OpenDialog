@@ -1,0 +1,42 @@
+# Python dependencies for Human Capital Transformation Framework
+# Figure 8: Integrated Quantitative Framework
+# 
+# Install with: pip install -r requirements.txt
+#
+# Tested with Python 3.10+
+
+# Core scientific computing
+numpy>=1.24.0
+pandas>=2.0.0
+scipy>=1.10.0
+
+# Visualization
+matplotlib>=3.7.0
+seaborn>=0.12.0
+
+# Network analysis (for Bayesian network visualization)
+networkx>=3.1
+
+# Statistical modeling (optional, for advanced Bayesian analysis)
+pymc>=5.0.0
+arviz>=0.15.0
+
+# Data validation
+jsonschema>=4.17.0
+
+# Reproducibility
+jupyter>=1.0.0
+notebook>=6.5.0
+
+# Export formats
+pillow>=9.5.0  # PNG export
+reportlab>=3.6.0  # PDF generation utilities
+
+# Testing and validation
+pytest>=7.3.0
+pytest-cov>=4.0.0
+
+# Code quality
+black>=23.0.0
+flake8>=6.0.0
+mypy>=1.2.0

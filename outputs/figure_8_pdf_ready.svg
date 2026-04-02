@@ -1,0 +1,218 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800">
+  <!-- Title -->
+  <text x="600" y="30" text-anchor="middle" font-family="Times New Roman, serif" font-size="18" font-weight="bold" fill="#000">
+    Figure 8: Integrated Quantitative Framework for Human Capital Transformation
+  </text>
+  <text x="600" y="50" text-anchor="middle" font-family="Times New Roman, serif" font-size="12" fill="#333">
+    Mathematical foundations for multipolar cognitive capital investment (2025-2035)
+  </text>
+  
+  <!-- Panel A: Labor Polarization (top left) -->
+  <g id="panel-a">
+    <rect x="40" y="80" width="540" height="320" fill="#fff" stroke="#000" stroke-width="1"/>
+    <text x="310" y="105" text-anchor="middle" font-family="Times New Roman, serif" font-size="13" font-weight="bold">
+      Panel A: Labor Market Polarization Dynamics
+    </text>
+    <text x="310" y="125" text-anchor="middle" font-family="Times New Roman, serif" font-size="11" style="font-style: italic">
+      H(t)=100e^(0.042t), M(t)=100e^(-0.031t), L(t)=100e^(0.018t)
+    </text>
+    
+    <!-- Axes -->
+    <line x1="80" y1="360" x2="540" y2="360" stroke="#000" stroke-width="1"/>
+    <line x1="80" y1="160" x2="80" y2="360" stroke="#000" stroke-width="1"/>
+    
+    <!-- Y-axis labels -->
+    <text x="70" y="165" text-anchor="end" font-size="9">150</text>
+    <text x="70" y="210" text-anchor="end" font-size="9">125</text>
+    <text x="70" y="260" text-anchor="end" font-size="9">100</text>
+    <text x="70" y="310" text-anchor="end" font-size="9">75</text>
+    <text x="70" y="360" text-anchor="end" font-size="9">50</text>
+    
+    <!-- X-axis labels -->
+    <text x="80" y="375" text-anchor="middle" font-size="9">2025</text>
+    <text x="310" y="375" text-anchor="middle" font-size="9">2030</text>
+    <text x="540" y="375" text-anchor="middle" font-size="9">2035</text>
+    
+    <!-- Curves -->
+    <path d="M 80,260 L 126,251 L 172,241 L 218,230 L 264,218 L 310,206 L 356,193 L 402,180 L 448,166 L 494,152 L 540,138" 
+          fill="none" stroke="#2c5aa0" stroke-width="2.5"/>
+    <path d="M 80,260 L 126,267 L 172,273 L 218,280 L 264,287 L 310,294 L 356,301 L 402,308 L 448,315 L 494,323 L 540,330" 
+          fill="none" stroke="#c94040" stroke-width="2.5"/>
+    <path d="M 80,260 L 126,256 L 172,253 L 218,249 L 264,245 L 310,241 L 356,237 L 402,233 L 448,229 L 494,225 L 540,221" 
+          fill="none" stroke="#5a9e5a" stroke-width="2.5"/>
+    
+    <!-- Legend -->
+    <rect x="90" y="175" width="15" height="3" fill="#2c5aa0"/>
+    <text x="110" y="180" font-size="9">High-skill cognitive (+42%)</text>
+    <rect x="90" y="190" width="15" height="3" fill="#c94040"/>
+    <text x="110" y="195" font-size="9">Mid-skill routine (-31%)</text>
+    <rect x="90" y="205" width="15" height="3" fill="#5a9e5a"/>
+    <text x="110" y="210" font-size="9">Low-skill non-routine (+18%)</text>
+  </g>
+  
+  <!-- Panel B: Productivity Trajectories (top right) -->
+  <g id="panel-b">
+    <rect x="620" y="80" width="540" height="320" fill="#fff" stroke="#000" stroke-width="1"/>
+    <text x="890" y="105" text-anchor="middle" font-family="Times New Roman, serif" font-size="13" font-weight="bold">
+      Panel B: Productivity Trajectories
+    </text>
+    <text x="890" y="125" text-anchor="middle" font-family="Times New Roman, serif" font-size="11" style="font-style: italic">
+      P(t) = P₀(1+r)^t where r ∈ {3.8%, 6.2%, 7.1%}
+    </text>
+    
+    <!-- Axes -->
+    <line x1="660" y1="360" x2="1120" y2="360" stroke="#000" stroke-width="1"/>
+    <line x1="660" y1="160" x2="660" y2="360" stroke="#000" stroke-width="1"/>
+    
+    <!-- Y-axis labels -->
+    <text x="650" y="165" text-anchor="end" font-size="9">2.0</text>
+    <text x="650" y="210" text-anchor="end" font-size="9">1.7</text>
+    <text x="650" y="260" text-anchor="end" font-size="9">1.3</text>
+    <text x="650" y="310" text-anchor="end" font-size="9">1.0</text>
+    
+    <!-- X-axis labels -->
+    <text x="660" y="375" text-anchor="middle" font-size="9">2025</text>
+    <text x="890" y="375" text-anchor="middle" font-size="9">2030</text>
+    <text x="1120" y="375" text-anchor="middle" font-size="9">2035</text>
+    
+    <!-- Curves (China, Russia, Global South) -->
+    <path d="M 660,310 L 706,302 L 752,293 L 798,283 L 844,273 L 890,262 L 936,250 L 982,238 L 1028,225 L 1074,212 L 1120,198" 
+          fill="none" stroke="#c94040" stroke-width="2.5"/>
+    <path d="M 660,310 L 706,305 L 752,301 L 798,296 L 844,291 L 890,286 L 936,281 L 982,276 L 1028,271 L 1074,265 L 1120,260" 
+          fill="none" stroke="#2c5aa0" stroke-width="2.5"/>
+    <path d="M 660,310 L 706,301 L 752,291 L 798,281 L 844,270 L 890,258 L 936,246 L 982,233 L 1028,220 L 1074,206 L 1120,192" 
+          fill="none" stroke="#5a9e5a" stroke-width="2.5"/>
+    
+    <!-- 5% threshold line -->
+    <line x1="660" y1="280" x2="1120" y2="280" stroke="#666" stroke-width="1" stroke-dasharray="5,5"/>
+    <text x="1130" y="283" font-size="8" fill="#666">5% threshold (2.3x)</text>
+    
+    <!-- Legend -->
+    <rect x="670" y="175" width="15" height="3" fill="#c94040"/>
+    <text x="690" y="180" font-size="9">Alpha: China 6.2% (p=0.68)</text>
+    <rect x="670" y="190" width="15" height="3" fill="#2c5aa0"/>
+    <text x="690" y="195" font-size="9">Beta: Russia 3.8% (p=0.54)</text>
+    <rect x="670" y="205" width="15" height="3" fill="#5a9e5a"/>
+    <text x="690" y="210" font-size="9">Gamma: Global South 7.1% (p=0.45)</text>
+  </g>
+  
+  <!-- Panel C: Investment ROI (bottom left) -->
+  <g id="panel-c">
+    <rect x="40" y="440" width="540" height="320" fill="#fff" stroke="#000" stroke-width="1"/>
+    <text x="310" y="465" text-anchor="middle" font-family="Times New Roman, serif" font-size="13" font-weight="bold">
+      Panel C: Investment ROI Surface
+    </text>
+    <text x="310" y="485" text-anchor="middle" font-family="Times New Roman, serif" font-size="11" style="font-style: italic">
+      ROI(i,a) = 0.5 + 0.3i + 0.2a + 0.05ia
+    </text>
+    
+    <!-- Heatmap grid (simplified) -->
+    <g opacity="0.3">
+      <rect x="80" y="510" width="45" height="35" fill="#e8e8e8"/>
+      <rect x="125" y="510" width="45" height="35" fill="#d0d0d0"/>
+      <rect x="170" y="510" width="45" height="35" fill="#b8b8b8"/>
+      <rect x="215" y="510" width="45" height="35" fill="#a0a0a0"/>
+      <rect x="260" y="510" width="45" height="35" fill="#888"/>
+      
+      <rect x="80" y="545" width="45" height="35" fill="#d0d0d0"/>
+      <rect x="125" y="545" width="45" height="35" fill="#b8b8b8"/>
+      <rect x="170" y="545" width="45" height="35" fill="#a0a0a0"/>
+      <rect x="215" y="545" width="45" height="35" fill="#888"/>
+      <rect x="260" y="545" width="45" height="35" fill="#707070"/>
+      
+      <rect x="80" y="580" width="45" height="35" fill="#b8b8b8"/>
+      <rect x="125" y="580" width="45" height="35" fill="#a0a0a0"/>
+      <rect x="170" y="580" width="45" height="35" fill="#888"/>
+      <rect x="215" y="580" width="45" height="35" fill="#707070"/>
+      <rect x="260" y="580" width="45" height="35" fill="#585858"/>
+    </g>
+    
+    <!-- 5% threshold box -->
+    <rect x="170" y="545" width="45" height="70" fill="none" stroke="red" stroke-width="2" stroke-dasharray="4,4"/>
+    <text x="192" y="630" text-anchor="middle" font-size="8" fill="red" font-weight="bold">5% threshold</text>
+    <text x="192" y="642" text-anchor="middle" font-size="8" fill="red">(2.3x accel)</text>
+    
+    <!-- Axes labels -->
+    <text x="310" y="730" text-anchor="middle" font-size="10" font-weight="bold">GDP Investment (%)</text>
+    <text x="50" y="610" text-anchor="middle" font-size="10" font-weight="bold" transform="rotate(-90 50 610)">Adaptive Capacity</text>
+    
+    <!-- Axis values -->
+    <text x="80" y="725" text-anchor="middle" font-size="9">0</text>
+    <text x="170" y="725" text-anchor="middle" font-size="9">5</text>
+    <text x="260" y="725" text-anchor="middle" font-size="9">10</text>
+    <text x="70" y="515" text-anchor="end" font-size="9">10</text>
+    <text x="70" y="565" text-anchor="end" font-size="9">5</text>
+    <text x="70" y="615" text-anchor="end" font-size="9">0</text>
+  </g>
+  
+  <!-- Panel D: Bayesian Network (bottom right) -->
+  <g id="panel-d">
+    <rect x="620" y="440" width="540" height="320" fill="#fff" stroke="#000" stroke-width="1"/>
+    <text x="890" y="465" text-anchor="middle" font-family="Times New Roman, serif" font-size="13" font-weight="bold">
+      Panel D: Bayesian Causal Network
+    </text>
+    <text x="890" y="485" text-anchor="middle" font-family="Times New Roman, serif" font-size="11" style="font-style: italic">
+      P(Outcome|Policy,Context) from empirical distributions
+    </text>
+    
+    <!-- Policy nodes (top) -->
+    <ellipse cx="720" cy="520" rx="55" ry="22" fill="#e8f4f8" stroke="#2c5aa0" stroke-width="1"/>
+    <text x="720" y="525" text-anchor="middle" font-size="10">GDP invest</text>
+    
+    <ellipse cx="890" cy="520" rx="55" ry="22" fill="#e8f4f8" stroke="#2c5aa0" stroke-width="1"/>
+    <text x="890" y="525" text-anchor="middle" font-size="10">AI deploy</text>
+    
+    <ellipse cx="1060" cy="520" rx="55" ry="22" fill="#e8f4f8" stroke="#2c5aa0" stroke-width="1"/>
+    <text x="1060" y="525" text-anchor="middle" font-size="10">Edu reform</text>
+    
+    <!-- Mediator nodes (middle) -->
+    <ellipse cx="750" cy="610" rx="60" ry="22" fill="#f0f0e8" stroke="#888" stroke-width="1"/>
+    <text x="750" y="615" text-anchor="middle" font-size="10">Workforce</text>
+    
+    <ellipse cx="890" cy="610" rx="60" ry="22" fill="#f0f0e8" stroke="#888" stroke-width="1"/>
+    <text x="890" y="615" text-anchor="middle" font-size="10">Credential vel</text>
+    
+    <ellipse cx="1030" cy="610" rx="60" ry="22" fill="#f0f0e8" stroke="#888" stroke-width="1"/>
+    <text x="1030" y="615" text-anchor="middle" font-size="10">H-AI synergy</text>
+    
+    <!-- Outcome nodes (bottom) -->
+    <ellipse cx="740" cy="700" rx="60" ry="22" fill="#e8f8e8" stroke="#5a9e5a" stroke-width="1"/>
+    <text x="740" y="705" text-anchor="middle" font-size="10">Productivity</text>
+    
+    <ellipse cx="890" cy="700" rx="60" ry="22" fill="#e8f8e8" stroke="#5a9e5a" stroke-width="1"/>
+    <text x="890" y="705" text-anchor="middle" font-size="10">Inequality↓</text>
+    
+    <ellipse cx="1040" cy="700" rx="60" ry="22" fill="#e8f8e8" stroke="#5a9e5a" stroke-width="1"/>
+    <text x="1040" y="705" text-anchor="middle" font-size="10">Employment</text>
+    
+    <!-- Arrows with probabilities -->
+    <defs>
+      <marker id="arrow" markerWidth="8" markerHeight="8" refX="6" refY="4" orient="auto">
+        <polygon points="0 0, 8 4, 0 8" fill="#666"/>
+      </marker>
+    </defs>
+    
+    <line x1="725" y1="542" x2="747" y2="588" stroke="#666" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <text x="738" y="563" font-size="8" fill="#666">0.72</text>
+    
+    <line x1="890" y1="542" x2="890" y2="588" stroke="#666" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <text x="895" y="565" font-size="8" fill="#666">0.65</text>
+    
+    <line x1="1055" y1="542" x2="1033" y2="588" stroke="#666" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <text x="1046" y="563" font-size="8" fill="#666">0.58</text>
+    
+    <line x1="748" y1="632" x2="742" y2="678" stroke="#666" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <text x="748" y="655" font-size="8" fill="#666">0.68</text>
+    
+    <line x1="890" y1="632" x2="890" y2="678" stroke="#666" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <text x="895" y="655" font-size="8" fill="#666">0.54</text>
+    
+    <line x1="1032" y1="632" x2="1038" y2="678" stroke="#666" stroke-width="1.5" marker-end="url(#arrow)"/>
+    <text x="1038" y="655" font-size="8" fill="#666">0.45</text>
+  </g>
+  
+  <!-- Caption -->
+  <text x="600" y="785" text-anchor="middle" font-family="Times New Roman, serif" font-size="9" style="font-style: italic">
+    Data sources: Autor &amp; Dorn (2023), Frey &amp; Osborne (2017), OECD (2023), McKinsey (2021), Acemoglu &amp; Restrepo (2020)
+  </text>
+</svg>
