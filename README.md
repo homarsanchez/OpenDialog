@@ -250,7 +250,7 @@ This research was supported by 4tools Gloabl Business. The author thanks:
 **Author:** Homar Sánchez-Olguín  
 **Email:** homar@exatec.tec.mx  
 **ORCID:** 0000-0001-9171-4399  
-**Institution:** Universidad Nacional Rosario Castellanos
+**Institution:** Universidad Abierta y a Distancia (BSc in Math) & Universidad Nacional Rosario Castellanos (MSc in Public Policy and Interculturality)
 
 For questions about the methodology, data, or code, please open an issue on GitHub or contact the author directly.
 
@@ -258,12 +258,13 @@ For questions about the methodology, data, or code, please open an issue on GitH
 
 ## Changelog
 
-### v1.0.0 (March 2026)
+### v1.0.1 (Abril 2026)
 - Initial release
 - Complete 4-panel framework
 - All datasets and reproducibility code
 - Validated against 2020-2024 empirical data
+- Final presentation artifacts
 
 ---
 
-**Last updated:** March 26, 2026
+**Last updated:** April 30th, 2026
